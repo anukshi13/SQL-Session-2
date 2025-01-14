@@ -8,5 +8,6 @@
 -- | 2019 | Chicago White Sox |
 -- | 2020 | Chicago White Sox |
 -- +------+-------------------+
-
+SELECT name, year FROM teams 
+WHERE park = "Guaranteed Rate Field"
 
